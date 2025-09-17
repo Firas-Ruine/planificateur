@@ -1,7 +1,7 @@
 import { Suspense } from "react"
 import { getProducts } from "@/services/firebase-service"
-import { DashboardContent } from "@/components/dashboard/dashboard-content"
-import { DashboardSkeleton } from "@/components/dashboard/dashboard-skeleton"
+import { DashboardContent } from "@/components/features/dashboard/dashboard-content"
+import { DashboardSkeleton } from "@/components/features/dashboard/dashboard-skeleton"
 import { getCurrentWeekRange, getWeekId } from "@/lib/date-utils"
 
 export default async function DashboardPage() {

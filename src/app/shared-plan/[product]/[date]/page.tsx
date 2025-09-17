@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState, useCallback } from "react"
-import { PlansView } from "@/components/views/plans-view"
+import { PlansView } from "@/components/features/plans-view"
 import { notFound, useSearchParams } from "next/navigation"
 import { Loader2, AlertCircle, RefreshCw } from "lucide-react"
 import type { Objective, Member, WeekRange as WeekRangeType } from "@/types"

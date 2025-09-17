@@ -1,7 +1,7 @@
 import { Suspense } from "react"
 import { getProducts } from "@/services/firebase-service"
-import { ObjectiveList } from "@/components/objectives/objective-list"
-import { ObjectiveListSkeleton } from "@/components/objectives/objective-list-skeleton"
+import { ObjectiveList } from "@/components/features/objectives/objective-list"
+import { ObjectiveListSkeleton } from "@/components/features/objectives/objective-list-skeleton"
 import { getWeekId, getWeekOptions } from "@/lib/date-utils"
 import { notFound } from "next/navigation"
 

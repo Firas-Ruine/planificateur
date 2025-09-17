@@ -1,5 +1,5 @@
 import { getObjectiveById, getTasksForObjective } from "@/services/firebase-service"
-import { ObjectiveDetail } from "@/components/objectives/objective-detail"
+import { ObjectiveDetail } from "@/components/features/objectives/objective-detail"
 import { notFound } from "next/navigation"
 
 interface ObjectiveDetailPageProps {

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react"
 import { useRouter } from "next/navigation"
-import { PlansView } from "@/components/views/plans-view"
+import { PlansView } from "@/components/features/plans-view"
 import { Loader2, AlertCircle, RefreshCw } from "lucide-react"
 import type { Objective, Member } from "@/types"
 import { getProducts, getMembers, getObjectives } from "@/services/firebase-service"

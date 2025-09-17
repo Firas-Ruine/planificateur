@@ -1,6 +1,6 @@
 import Link from "next/link"
 import type { Objective, TeamMember, ObjectiveCategory } from "@/types"
-import { ObjectiveCard } from "@/components/objectives/objective-card"
+import { ObjectiveCard } from "@/components/features/objectives/objective-card"
 import { EmptyState } from "@/components/empty-state"
 
 interface WeeklyObjectivesProps {
