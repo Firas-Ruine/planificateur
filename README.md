@@ -65,7 +65,7 @@ A modern, collaborative weekly planning application built with Next.js, TypeScri
 
 2. **Install dependencies**
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. **Environment Setup**
